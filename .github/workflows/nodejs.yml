@@ -36,7 +36,7 @@ jobs:
     - name: Deploy to Server
       uses: easingthemes/ssh-deploy@main
       env:
-          SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           ARGS: ${{ secrets.ARGS }}
           SOURCE: ${{ secrets.SOURCE }}
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
