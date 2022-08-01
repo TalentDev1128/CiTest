@@ -65,7 +65,7 @@ function App() {
     <>
       <GlobalStyle />
       <Container>
-        <h2> Styled Components. </h2>
+        <h2> Styled Components </h2>
         <HoverMessage> Inside Container </HoverMessage>
         <Block>Ex A</Block>
         <Block color="green">Ex B</Block>
